@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>My google forms trick!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+
+<div class="col-lg-4"></div>
+
+    <div class="col-lg-4">
+      <script type="text/javascript">
+        var submitted = false;
+      </script>
+
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='https://atmtrans.com';}"></iframe>
+      <!-- {window.location='URL-REDIRECT';}        -->
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSfmywee8qxFIrQTY7EOGWBejSrDN3Rt3mgUSJBjHzYTSrQ_WQ/formResponse"  method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+        <div class="class="form-group"">
+          <label for="firstInput">firstInput</label>
+          <input type="text" id="firstInput" name="entry.1308696487" class="form-control" required>
+        </div>
+        <div class="class="form-group"">
+          <label for="secondInput">secondInput</label>
+          <input type="text" id="secondInput" name="entry.474829116" class="form-control" required>
+        </div>
+
+
+                <input type="hidden" name="fvv" value="1">
+                <input type="hidden" name="draftResponse" value="[null,null,&quot;-4780882145993182853&quot;]">
+                <input type="hidden" name="pageHistory" value="0">
+                <input type="hidden" name="fbzx" value="-4780882145993182853">
+
+        <br>  <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </form>
+    </div>
+    <div class="col-lg-4"></div>
+    </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
